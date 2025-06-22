@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup-CAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <Section class="headline">
+        <div class="headcontent">
+        <div class="logo"><img src="logo.png" hight="90px" width="90px"></div>
+        <div class="head">
+             <h1><b>CAN</b></h1>
+            <p><i>Creative Art Nepal </i></p>
+        </div>
+        </div>
+    </Section>
+    <section class="sign">
+        <div class="signup">
+            <h2>Create Account</h2>
+            <div class="form-group">
+                <label for="username">User Name</label>
+                <input type="text" id="username" placeholder="Enter User Name">
+            </div>
+            <div class="form-group">
+                <laber for="email">Email</laber>
+                <input type="email" if="email" placeholder="Enter valid mail ID">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="anBc@123">
+                <i class="fa fa-eye passwordcheck" onclick="passwordcheck()"></i><br>
+                <button class="btn" onclick="submitForm()">Sign in</button>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
