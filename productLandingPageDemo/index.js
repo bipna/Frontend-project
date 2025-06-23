@@ -3,16 +3,16 @@ function passwordcheck() {
     const icon= document.querySelector(".passwordcheck");
     const isPassword = password.type === "password";
 
-    password.type = password.type ==="password"? "text":"password";
+    password.type = password.type ==="password"? "text" : "password";
     icon.classList.toggle("fa-eye-slash", isPassword);
     icon.classList.toggle("fa-eye", !isPassword);
 
 
 }
 function submitForm(){
-    const username=document.getElementById("username").value.trim();
-    const email= document.getElementById("email").value.trim();
-    const password= document.getElementById("password").value.trim();
+    const username = document.getElementById("username").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const password = document.getElementById("password").value.trim();
     const message = document.getElementById("message");
 
     const hasuppercase=/[A-Z]/.test(password);
@@ -29,7 +29,7 @@ function submitForm(){
         return;
 
     }
-    if(password.length <8){
+    if(password.length < 8){
         showmessage("Password must include more than 8 letters ","red");
 
         return;
@@ -43,7 +43,7 @@ function submitForm(){
 
     setTimeout(()=>{
         window.location.href="index.html";
-    },2000);
+    }, 2000);
 }
 function showmessage(msg,color){
      const message = document.getElementById("message");

@@ -133,6 +133,12 @@ body{
     background-color: rgb(32, 105, 241);
     transform: scale(1.05);
 }
+.message{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+}
 .content{
     margin: 0px;
     padding:10px 20px;
