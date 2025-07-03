@@ -86,3 +86,52 @@ body{
     }
     
 }
+.cart-icon {
+      position: relative;
+      cursor: pointer;
+    }
+    .cart-count {
+      background: red;
+      color: white;
+      border-radius: 50%;
+      padding: 0.2rem 0.5rem;
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      font-size: 0.8rem;
+    }
+    .container {
+      padding: 2rem;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+.product {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      background: #fff;
+      width: 200px;
+      border-radius: 8px;
+    }
+    .product button {
+      background: #28a745;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      margin-top: 0.5rem;
+      border-radius: 4px;
+    }
+    #cart-section {
+      display: none;
+      padding: 2rem;
+      background: #fff;
+      border-top: 2px solid #eee;
+    } .cart-item {
+      border: 1px solid #ddd;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+    }
