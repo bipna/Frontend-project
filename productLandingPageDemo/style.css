@@ -171,19 +171,7 @@ body{
     padding: 20px;
     margin: 20px;
 }
-@media (max-width:600px) {
-    nav{
-        display: none;
-        flex-direction: column;
-        top: 60px;
-        right: 10px;
-        background: #444;
-        padding: 1rem;
-        border-radius: 8px;
-    }
-    nav .show{
-        display: flex;
-    }
+
+   
     
-    
-}
+
