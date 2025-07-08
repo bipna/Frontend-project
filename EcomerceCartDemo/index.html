@@ -22,21 +22,48 @@
             <ul class="nav-link" id="navlink">
             <li><a href="index.html">HOME</a></li>
             <li><a href="signup.html">SIGN IN</a></li>
-            <div class="cart-icon" onclick="toggleCart()">
-              CART<span class="=cart-count" id="cart-count">0</span>  
+           <li>
+             <div class="cart-icon" onclick="toggleCart()">
+              <a href="cart.html">Cart</a> <span class="=cart-count" id="cart-count"><h5>0</h5></span>  
             </div>
+           </li> 
             <li><a href="#">BECOME SELLER</a></li>
             </ul>
         </nav>
         </div>
     </Section>
-    <section>
-     <div class="container">
-       <div class="products" id="product-list">
-         <!--product will be fetch from js -->
+    <section class="products">
+       <div class="product">
+        <img src="/image1jpeg.jpg" alt="image1">
+        <h1>Vintage Art</h1>
+        <h3>Price:$500 </h3>
+        <button onclick="addToCart('Vintage Art', 500, '/image1jpeg.jpg')">Add to cart</button>
+      </div>
+      <div class="product">
+        <img src="/image2.jpg" alt="image2">
+        <h1>Himalayas</h1>
+        <h3>Price:$750 </h3>
+        <button onclick="addToCart('Himalayas', 750, '/image2.jpg')">Add to cart</button>
+      </div>
+      <div class="product">
+        <img src="/image3.jpg" alt="image3">
+        <h1>Sun Rays</h1>
+        <h3>Price:$600 </h3>
+        <button onclick="addToCart('Sun Rays', 600, '/image3')">Add to cart</button>
+      </div>
+      <div class="product">
+        <img src="/image4.jpg" alt="image4">
+        <h1>village</h1>
+        <h3>Price:$600 </h3>
+        <button onclick="addToCart('Sun Rays', 600, '/image4')">Add to cart</button>
        </div>
-     </div>
-     
+       
+       <div class="product">
+        <img src="/image6.jpg" alt="image5">
+        <h1>Ancient valley</h1>
+        <h3>Price:$1000 </h3>
+        <button onclick="addToCart('Ancient valley', 1000, '/image6.jpg')">Add to cart</button>
+      </div>
     </section>
     <script src="index.js"></script>
 
